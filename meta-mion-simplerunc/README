@@ -1,0 +1,65 @@
+This README file contains information on the contents of the meta-mion-simplerunc layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+URI git://git.openembedded.org/bitbake
+branch: 1.46
+
+URI	git://git.openembedded.org/openembedded-core  
+branch: dunfell
+openembedded-core/meta 
+
+URI	git@github.com:NetworkGradeLinux/meta-mion 
+branch: dunfell
+meta-mion 
+
+URI	git@github.com:NetworkGradeLinux/meta-mion-bsp
+branch: dunfell
+meta-mion-stordis
+
+URI	git://git.openembedded.org/meta-openembedded 
+branch: dunfell
+meta-openembedded/meta-oe 
+meta-openembedded/meta-networking 
+meta-openembedded/meta-python 
+meta-openembedded/meta-filesystems 
+
+URI	https://git.openembedded.org/meta-python2 
+branch: dunfell
+meta-python2 
+
+URI	https://git.yoctoproject.org/git/meta-virtualization 
+branch: dunfell
+meta-virtualization 
+
+URI	git://git.yoctoproject.org/meta-yocto 
+branch: dunfell
+meta-yocto/meta-yocto-bsp 
+
+Patches
+=======
+
+Please submit any patches against the meta-mion-simplerunc layer via the meta-mion-unsupported github at https://github.com/NetworkGradeLinux/meta-mion-unsupported
+and cc: the maintainer:
+
+Maintainer: Eilís Ní Fhlannagáin <pidge@toganlabs.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-mion-unsupported layer to your build
+ II. Misc
+
+
+I. Adding the meta-mion layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-mion-unsupported'
+
+II. Misc
+========
+
+--- replace with specific information about the meta-mion-unsupported layer ---
